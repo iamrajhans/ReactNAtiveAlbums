@@ -16,7 +16,7 @@ import AlbumList from './src/component/AlbumList.js';
 export default class albums extends Component {
   render() {
     return (
-      <View>
+      <View style={{ flex: 1}}>
         <Headers headerText={'Albums'}/>
         <AlbumList />
       </View>
